@@ -65,8 +65,8 @@ dependencyUpdates.resolutionStrategy = {
     }
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.5'
+task wrapperserver(type: Wrapper) {
+    gradleVersion = '5.0'
 }
 
 tasks.withType(Test) {
